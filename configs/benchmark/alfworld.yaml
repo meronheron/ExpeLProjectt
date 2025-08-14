@@ -71,7 +71,7 @@ general:
     run_eval: True
     batch_size: 10
     env:
-      type: "AlfredTWEnv"
+      type: "AlfredTWEnv" 
 
   checkpoint:
     report_frequency: 1000                                    # report every N episode

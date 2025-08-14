@@ -14,4 +14,8 @@ transformers==4.30.2
 einops==0.6.1
 sentence_transformers
 matplotlib
+numpy==1.26.4
+pydantic==1.10.12
+alfworld==0.3.3
+
 # gdown # for downloading files from google drive (webshop)

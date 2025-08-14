@@ -117,7 +117,8 @@ def main(cfg : DictConfig) -> None:
 
     print(f"""*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
 
-You are using the following language model: {react_agent.llm.model_name}
+You are using the following language model: {react_agent.llm.wrapper.model_name
+}
 
 *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*""")
 
